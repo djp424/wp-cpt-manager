@@ -17,8 +17,8 @@ include_once('cpt.php');
 // Portfolio Items
 $project = new CPT('project');
 $project->menu_icon('dashicons-book-alt');
-$speaking = new CPT('speaking');
-$speaking->menu_icon('dashicons-megaphone');
+// $speaking = new CPT('speaking');
+// $speaking->menu_icon('dashicons-megaphone');
 
 // Ratings
 $location = new CPT('location');
