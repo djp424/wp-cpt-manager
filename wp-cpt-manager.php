@@ -5,8 +5,8 @@
  */
 
 /*
-Plugin Name: davidparsons.me
-Description: CPT's for davidparsons.me
+Plugin Name: WP CPT Manager
+Description: CPT's for davidparsons.me. Planning on extending this to be used on any site.
 Author: David Parsons
 Version: 1.0
 Author URI: https://davidparsons.me/

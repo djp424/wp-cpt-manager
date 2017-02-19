@@ -379,8 +379,8 @@ class CPT {
 			'labels' => $labels,
 			'hierarchical' => true,
 			'rewrite' => array(
-				'slug' => $slug
-			)
+				'slug' => $slug,
+			),
 		);
 
 		// Merge default options with user submitted options.
