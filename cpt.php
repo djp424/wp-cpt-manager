@@ -281,7 +281,7 @@ class CPT {
 			'search_items'       => __( 'Search ' . $plural, $textdomain ),
 			'parent_item_colon'  => __( 'Parent ' . $plural . ':', $textdomain ),
 			'not_found'          => __( 'No ' . $singular_l . ' found.', $textdomain ),
-			'not_found_in_trash' => __( 'No ' . $singular_l . ' found in Trash.', $textdomain )
+			'not_found_in_trash' => __( 'No ' . $singular_l . ' found in Trash.', $textdomain ),
 		);
 
 		$args = array(
@@ -298,7 +298,7 @@ class CPT {
 			'hierarchical'       => false,
 			'menu_position'      => null,
 			'menu_icon'          => $icon,
-			'supports'           => array( 'title', 'editor', 'thumbnail' )
+			'supports'           => array( 'title', 'editor', 'thumbnail' ),
 		);
 
 		// Check that the post type doesn't already exist.
@@ -324,7 +324,7 @@ class CPT {
 		$names = array(
 			'singular',
 			'plural',
-			'slug'
+			'slug',
 		);
 
 		// if an array of names are passed
